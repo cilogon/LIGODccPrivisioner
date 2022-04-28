@@ -15,7 +15,7 @@ Whether we do a push from Comanage or pull from LDAP?
   - ChangeLOG API from grouper 
 
 
-LDAP the winner?
+IF: LDAP the winner? Then: NO need Comanage plug in.
 
 Problems:
 - In DCC there is no difference between oGROUP (organization group) and aGROUP (authorization group). 
