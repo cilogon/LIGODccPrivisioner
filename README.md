@@ -13,6 +13,7 @@ Whether we do a push from Comanage or pull from LDAP?
   - It is not merging of LDAP. But two different LDAP's. 
 
 
-Problem:
+Problems:
 - In DCC there is no difference between oGROUP and aGROUP. 
 - Satosa attributes dont match with what we have in LDAP. 
+- LIGO vs KAGRA employeeNumber collides modulo KL. Hence DCC/pnp adds 88 for KL currently (hacky way).
