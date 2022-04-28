@@ -11,3 +11,8 @@ Whether we do a push from Comanage or pull from LDAP?
   - Potential: Comanage publishes i.e. push plug in from Comanage. 
   - If we pull, need ldap. We can have local HA replica. We cannot have two ldap's in the LINUX system. WE cannot merge LIGO and KAGRA ldap? Caltech replica both replicates gw-astronomy and ldap.ligo.org. 
   - It is not merging of LDAP. But two different LDAP's. 
+
+
+Problem:
+- In DCC there is no difference between oGROUP and aGROUP. 
+- Satosa attributes dont match with what we have in LDAP. 
