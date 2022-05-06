@@ -4,9 +4,9 @@
   3. If someone is removed from an organizational group, DCC should be alerted.
 
 Whether we do a push from Comanage or pull from LDAP? 
-  - The current KAGRA provisioing is brute force.  (What does "brute force" mean in this context?)
+  - The current KAGRA provisioing is brute force.  
   - Brute force for pnp for also. 
-  -Any record in ldap, verify record in the LDAP. After  LDAP record is checked, two lists: not verified then deprovision. Verified then add back in. 
+  -Any record in ldap, verify record in the LDAP. After  LDAP record is checked, two lists: not verified then deprovision. Verified then add back in. (Is this definition of "brute force" in this context?)
   - DCC and pnp are codependent. Any change from Comanage level, one for DCC and pnp. pnp has its own database but also uses part of DCC database.
   - Potential: Comanage publishes i.e. push plug in from Comanage. 
   - If we pull, need ldap. We can have local HA replica. We cannot have two ldap's in the LINUX system. WE cannot merge LIGO and KAGRA ldap? Caltech replica both replicates gw-astronomy and ldap.ligo.org. 
